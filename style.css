@@ -1,4 +1,4 @@
-/* - - - - - BODY SECTION - - - - -  */
+/* - - - - - BODY STYLES - - - - -  */
 body {
   margin: 0px;
   padding: 0px;
@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 
-/* - - - - - NAVIGATION SECTION - - - - -  */
+/* - - - - - NAVIGATION STYLES - - - - -  */
 .navbar a {
   color: white;
 }
@@ -43,7 +43,7 @@ body {
   margin-top: -10px;
 }
 
-/* - - - - - HEADER SECTION - - - - - */
+/* - - - - - HEADER STYLES - - - - - */
 header {
   height: 100vh;
   display: flex;
@@ -62,5 +62,30 @@ header {
   font-style: italic;
   font-size: 8em;
   font-weight: 4em;
+}
+
+/* - - - - - ABOUT STYLES - - - - - */
+#about_STYLES{
+	margin-bottom: 60px;
+}
+#about_STYLES .row{
+	margin-top: 30px;
+}
+#about_first_par{
+	font-size: 1.2em;
+}
+#about_web_div, #about_art_div{
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+/* - - - - - PORTFOLIO STYLES - - - - - */
+#portfolio_wrapper{
+	background-image: url("http://www.vectorportal.com/img_novi/s-free_vector_grunge_5226.jpg");
+}
+#portfolio_STYLES img{
+  margin-bottom: 20px;
+  border: solid 5px;
+  width: 100%;
 }
 
