@@ -2,40 +2,46 @@
 <html lang="en">
 
   <head>
-    <title>Designs by Haver Te</title>
     <meta charset="utf-8">
     <meta name="description" content="Haver Te Portfolio Page, Front End Web Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="thinkful, github, portfolio, css, bootstrap">
-    <meta name="robots" content="noimageindex,nofollow">
+    <meta name="robots" content="noimageindex, nofollow">
     <meta http-equiv="refresh" content="120">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Designs by Haver Te</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
 
   <body>
 
-    <!-- NAVAGATION SECTION -->
-    <section id="nav_section" class="container">
+    <!-- NAVIGATION SECTION -->
+    <section id="nav-section" class="container">
       <nav class="navbar navbar-fixed-top navbar-inverse">
-        <!-- Non-collapsable portion of navbar & toggle button -->
+        <!-- Non-collapsible portion of navbar & toggle button -->
         <div class="navbar-header">
           <!-- hamburger icon/button -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar_menu">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
           <!-- nav's brand/logo -->
-          <a href="https://hensn5250.github.io/portfolio-web-page/" class="navbar-brand"><img class="img-responsive" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaQQDCchtBw5N5lthr7xoZmLGz0zLHez4WtIfFBYg-kp22J0lDfg" id="logo_image">Haver Te</a>
+          <a href="https://hensn5250.github.io/portfolio-web-page/" class="navbar-brand"><img class="img-responsive" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRaQQDCchtBw5N5lthr7xoZmLGz0zLHez4WtIfFBYg-kp22J0lDfg" id="logo-image">Haver Te</a>
         </div>
 
-        <!-- Collapsable portion of Navbar: navbar menu -->
-        <div id="navbar_menu" class="collapse navbar-collapse">
-          <ul id="nav_links" class="nav navbar-nav navbar-right">
+        <!-- Collapsible portion of Navbar: navbar menu -->
+        <div id="navbar-menu" class="collapse navbar-collapse">
+          <ul id="nav-links" class="nav navbar-nav navbar-right">
             <!-- Navbar Menu Links with  ScrollSpy enabled  -->
-            <li class="scroll-link" data-id="header_section"><a href="#a_home" class="active"><i class="fa fa-home"> HOME</i></a></li>
-            <li class="scroll-link" data-id="about_section"><a href="#a_about"><i class="fa fa-user"> ABOUT</i></a></li>
-            <li class="scroll-link" data-id="portfolio_section"><a href="#a_portfolio"><i class="fa fa-folder"> PORTFOLIO</i></a></li>
-            <li class="scroll-link" data-id="contact_section"><a href="#a_contact"><i class="fa fa-paper-plane"> CONTACT</i></a></li>
+            <li class="scroll-link" data-id="header-section"><a href="#a-home" class="active"><i class="fa fa-home"> HOME</i></a></li>
+            <li class="scroll-link" data-id="about-section"><a href="#a-about"><i class="fa fa-user"> ABOUT</i></a></li>
+            <li class="scroll-link" data-id="portfolio-section"><a href="#a-portfolio"><i class="fa fa-folder"> PORTFOLIO</i></a></li>
+            <li class="scroll-link" data-id="contact-section"><a href="#a-contact"><i class="fa fa-paper-plane"> CONTACT</i></a></li>
           </ul>
         </div>
       </nav>
@@ -43,98 +49,97 @@
 
     <!-- HEADER SECTION -->
     <section class="container-fluid">
-      <header id="header_section">
+      <header id="header-section">
         <!-- Landing Page -->
-        <h2 id="header_text" class="align_center wow fadeIn">DESIGNS BY HAVER TE</h2>
+        <h3 class="align-center wow fadeIn author-title">Haver Te</h3>
+        <h5 class="align-center wow fadeIn job-title">Front End Developer</h5>
         <i class="fa fa-paint-brush wow fadeInUp"></i>
       </header>
     </section>
 
 
-	<!-- ABOUT SECTION -->
-	<section id="about_section">
-		<div class="container">
-			<h3 class="align_center">ATTENTION TO DETAIL</h3>
-			<hr>
-			<p id="about_first_par" class="align_center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio blanditiis magnam repudiandae, reiciendis sit earum nihil adipisci consequuntur voluptates vitae.</p>
-			<div class="row">
-				<div id="about_art_div" class="col-sm-6" >
-					<h4>Artistry</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae culpa voluptates quam fugit temporibus eum ullam at itaque officia suscipit maxime, ad mollitia officiis quae voluptatem optio reiciendis ab corrupti.</p>		
-				</div>
-				<div id="about_web_div" class="col-sm-6">
-					<h4>Web Developement</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ad molestiae, explicabo quam odit, corporis dolores aliquam voluptas. Magni eos, soluta! Dolorem dignissimos laudantium odio nam veritatis quo, sint veniam.</p>	
-				</div>
-			</div>
-		</div>
-	</section>
+    <!-- ABOUT SECTION -->
+    <section id="about-section">
+      <div class="container">
+        <h3 class="align-center">ATTENTION TO DETAIL</h3>
+        <hr>
+        <p id="about-first-par" class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio blanditiis magnam repudiandae, reiciendis sit earum nihil adipisci consequuntur voluptates vitae.</p>
+        <div class="row">
+          <div id="about-art-div" class="col-sm-6">
+            <h4>Artistry</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae culpa voluptates quam fugit temporibus eum ullam at itaque officia suscipit maxime, ad mollitia officiis quae voluptatem optio reiciendis ab corrupti.</p>
+          </div>
+          <div id="about-web-div" class="col-sm-6">
+            <h4>Web Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ad molestiae, explicabo quam odit, corporis dolores aliquam voluptas. Magni eos, soluta! Dolorem dignissimos laudantium odio nam veritatis quo, sint veniam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- PORTFOLIO SECTION -->
-	<section id="portfolio_wrapper">
-		<div id="portfolio_section" class="container">
-			<h3 class="align_center">MY LATEST WORK</h3>
-			<hr>
-			<img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gifted-angular-business-website-template.jpg" class="img-responsive wow slideInRight" alt="webpage displaying lightbulbs">
-			<img src="http://cssmenumaker.com/sites/default/files/blog_images/dreamweaver_template1.png" class="img-responsive wow slideInLeft" alt="webpage displaying tall buildings">
-			<img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/medicare-simple-medical-website-template.jpg" class="img-responsive wow slideInRight" alt="webpage displaying nurse in hospitol">
-			<img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/uncode-multipurpose-fullscreen-website-template.jpg" class="img-responsive wow slideInLeft" alt="webpage with blue background overlaying a forest">
-		</div>	
-	</section>
-  
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio-wrapper">
+      <div id="portfolio-section" class="container">
+        <h3 class="align-center">MY LATEST WORK</h3>
+        <hr>
+        <img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gifted-angular-business-website-template.jpg" class="img-responsive wow slideInRight" alt="webpage displaying lightbulbs">
+        <img src="http://cssmenumaker.com/sites/default/files/blog_images/dreamweaver_template1.png" class="img-responsive wow slideInLeft" alt="webpage displaying tall buildings">
+        <img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/medicare-simple-medical-website-template.jpg" class="img-responsive wow slideInRight" alt="webpage displaying nurse in hospitol">
+        <img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/uncode-multipurpose-fullscreen-website-template.jpg" class="img-responsive wow slideInLeft" alt="webpage with blue background overlaying a forest">
+      </div>
+    </section>
 
-	<!-- CONTACT SECTION -->
-	<section id="contact_section" class="container center">
-		<form class="col-sm-6 col-sm-offset-3 col-xs-12">
-			<h3 class="align_center wow zoomIn">CONTACT US</h3>
-			<hr>
-			<!-- Contact Form -->
-			<div class="form-group row">
-				<input type="text" class="form-control" id="input_name" placeholder="Name">
-			</div>
-			<div class="form-group row">
-				<input type="text" class="form-control" id="input_company" placeholder="Company">
-			</div>
-			<div class="form-group row">
-				<input type="email" class="form-control" id="input_email" placeholder="Email">
-			</div class="" >
-			<div class="form-group row">
-				<textarea class="col-xs-12" placeholder="Enter message"></textarea>
-			</div>
-			<!-- Submit Button -->
-			<div class="form-group row">
-				<button  type="submit" class="col-xs-12 btn btn-primary">Send</button>	
-			</div>
-		</form> 	
-	</section>
-	
-	<!-- FOOTER SECTION -->
-	<footer id="footer_section">
-		<!-- Footer Navbar -->
-		<nav id="footer_nav" class="navbar navbar-static-top navbar-inverse no_text_decor"i>
-			<!-- Social Media Contacts -->
-			<div id="footer_icons" class="footer_content">
-				<a href="https://www.facebook.com" target="_blank"><i  class="fa fa-facebook fa-3x img-rounded"></i></a>
-				<a href="https://www.twitter.com" target="_blank"><i  class="fa fa-twitter fa-3x img-rounded"></i></a>
-				<a href="https://plus.google.com/" target="_blank"><i  class="fa fa-google-plus fa-3x img-rounded"></i></a>
-				<a href="https://www.linkedin.com" target="_blank"><i  class="fa fa-linkedin fa-3x img-rounded"></i></a>
-			</div>
-			<div id="footer_text"  class="footer_content">
-				<a href="https://hensn5250.github.io/portfolio-web-page/" target="_blank"><i class="fa fa-copyright"> 2020 Designs by Haver Te</i></a>
-			</div>
-		</nav>
-	</footer>
-  
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-    <!-- Bootstrap library -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- CONTACT SECTION -->
+    <section id="contact-section" class="container center">
+      <form class="col-sm-6 col-sm-offset-3 col-xs-12">
+        <h3 class="align-center wow zoomIn">CONTACT ME</h3>
+        <hr>
+        <!-- Contact Form -->
+        <div class="form-group row">
+          <input type="text" class="form-control" id="input-name" placeholder="Name">
+        </div>
+        <div class="form-group row">
+          <input type="text" class="form-control" id="input-company" placeholder="Company">
+        </div>
+        <div class="form-group row">
+          <input type="email" class="form-control" id="input-email" placeholder="Email">
+        </div class="">
+        <div class="form-group row">
+          <textarea class="col-xs-12" placeholder="Enter message"></textarea>
+        </div>
+        <!-- Submit Button -->
+        <div class="form-group row">
+          <button type="submit" class="col-xs-12 btn btn-primary">Send</button>
+        </div>
+      </form>
+    </section>
 
-    <!-- Wow.JS library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- FOOTER SECTION -->
+    <footer id="footer-section">
+      <!-- Footer Navbar -->
+      <nav id="footer-nav" class="navbar navbar-static-top navbar-inverse no-text-decor" i>
+        <!-- Social Media Contacts -->
+        <div id="footer-icons" class="footer-content">
+          <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-3x img-rounded"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-3x img-rounded"></i></a>
+          <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus fa-3x img-rounded"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-3x img-rounded"></i></a>
+        </div>
+        <div id="footer-text" class="footer-content">
+          <a href="https://hensn5250.github.io/portfolio-web-page/" target="-blank"><i class="fa fa-copyright"> 2020 Designs by Haver Te</i></a>
+        </div>
+      </nav>
+    </footer>
 
-     
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/js/umd/scrollspy.js"></script>
+    <script src="js/main.js"></script>
+
   </body>
 
 </html>
