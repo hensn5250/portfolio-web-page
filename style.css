@@ -1,1 +1,66 @@
+/* - - - - - BODY SECTION - - - - -  */
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-width: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* - - - - - GENERAL CLASSES - - - - -  */
+.no_text_decor a {
+  text-decoration: none;
+}
+
+.align_center {
+  text-align: center;
+}
+
+/* - - - - - NAVIGATION SECTION - - - - -  */
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar li {
+  padding-left: 20px;
+}
+
+#nav_links {
+  margin-right: 0px;
+}
+
+#logo_image {
+  height: 100%;
+  width: 51%;
+}
+
+.navbar-brand {
+  font-size: 1.6em;
+  margin-top: -10px;
+}
+
+/* - - - - - HEADER SECTION - - - - - */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-paint-brush {
+  font-size: 9em;
+  margin-top: 60px;
+}
+
+#header_text {
+  font-family: serif;
+  font-style: italic;
+  font-size: 8em;
+  font-weight: 4em;
+}
 
