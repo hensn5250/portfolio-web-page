@@ -89,3 +89,24 @@ header {
   width: 100%;
 }
 
+
+/* - - - - - CONTACT STYLES - - - - - */
+
+/* - - - - - FOOTER STYLES - - - - - */
+#contact_section{
+	margin-bottom: 30px;
+}
+#footer_nav{
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.footer_content{
+	text-align: center;
+}
+#footer_icons{
+	word-spacing: 6em;
+}
+
+
+
