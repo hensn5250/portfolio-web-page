@@ -8,11 +8,11 @@ body {
 }
 
 /* - - - - - GENERAL CLASSES - - - - -  */
-.no_text_decor a {
+.no-text-decor a {
   text-decoration: none;
 }
 
-.align_center {
+.align-center {
   text-align: center;
 }
 
@@ -29,11 +29,11 @@ body {
   padding-left: 20px;
 }
 
-#nav_links {
+#nav-links {
   margin-right: 0px;
 }
 
-#logo_image {
+#logo-image {
   height: 100%;
   width: 51%;
 }
@@ -57,56 +57,47 @@ header {
   margin-top: 60px;
 }
 
-#header_text {
-  font-family: serif;
-  font-style: italic;
-  font-size: 8em;
-  font-weight: 4em;
+header .author-title {
+ font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ font-size:4em
 }
 
+header .job-title {
+  font-family: 'Martel Sans', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  letter-spacing: 2px;
+ }
+
 /* - - - - - ABOUT STYLES - - - - - */
-#about_STYLES{
-	margin-bottom: 60px;
-}
-#about_STYLES .row{
-	margin-top: 30px;
-}
-#about_first_par{
+#about-first-par{
 	font-size: 1.2em;
 }
-#about_web_div, #about_art_div{
+#about-web-div, #about-art-div{
 	margin-bottom: 20px;
 	font-size: 1em;
 }
 
 /* - - - - - PORTFOLIO STYLES - - - - - */
-#portfolio_wrapper{
-	background-image: url("http://www.vectorportal.com/img_novi/s-free_vector_grunge_5226.jpg");
+#portfolio-wrapper{
+	background-image: url("http://www.vectorportal.com/img-novi/s-free-vector-grunge-5226.jpg");
 }
-#portfolio_STYLES img{
-  margin-bottom: 20px;
-  border: solid 5px;
-  width: 100%;
-}
-
 
 /* - - - - - CONTACT STYLES - - - - - */
 
 /* - - - - - FOOTER STYLES - - - - - */
-#contact_section{
+#contact-section{
 	margin-bottom: 30px;
 }
-#footer_nav{
+#footer-nav{
 	margin-bottom: 0px;
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
-.footer_content{
+.footer-content{
 	text-align: center;
 }
-#footer_icons{
+#footer-icons{
 	word-spacing: 6em;
 }
-
-
-
